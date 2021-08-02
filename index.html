@@ -1,7 +1,75 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
 <title>⭐ HACKED BY KHALED ALKHALDI ⭐ 0595138319 ⭐ Infinity Store Gaza⭐</title>
-<style>
+<style type="text/css">
+  .yellow {
+    color: yellow;
+  }
+
+  .hue {
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    animation: hue 5s linear infinite;
+    -webkit-animation: hue 5s linear infinite;
+    box-shadow: 0px 0px 70px yellow;
+    color: white;
+    background: rgba(255, 255, 0, 0.4);
+  }
+
+  .hue:hover {
+    color: yellow;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  @keyframes hue {
+    0% {
+      filter: hue-rotate(0deg);
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    10% {
+      box-shadow: 0px 1px 70px yellow;
+    }
+
+    20% {
+      box-shadow: 1px 1px 70px yellow;
+    }
+
+    30% {
+      box-shadow: 1px 0px 70px yellow;
+    }
+
+    40% {
+      box-shadow: 1px -1px 70px yellow;
+    }
+
+    50% {
+      box-shadow: 0px -1px 70px yellow;
+    }
+
+    60% {
+      box-shadow: -1px -1px 70px yellow;
+    }
+
+    70% {
+      box-shadow: -1px 0px 70px yellow;
+    }
+
+    80% {
+      box-shadow: -1px 1px 70px yellow;
+    }
+
+    90% {
+      box-shadow: 0px 1px 70px yellow;
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+      -webkit-filter: hue-rotate(360deg);
+    }
+  }
 html, body {
 background-image: url('bk.png');
 background-size: 100%;
@@ -9,7 +77,7 @@ background-repeat: no-repeat;
 background-color: #24272b;
 color: white;
 margin: 0px;
-overflow: hidden;
+/* overflow: hidden; */
 }
 h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
@@ -39,6 +107,10 @@ border-radius: 8px;
 }
 .btn:hover {
 background-color: #0058b1;
+box-shadow: 0 5px 50px 0 white;
+            background-color: #0F0F53;
+            color: white;
+            border-radius: 10px;
 }
 .btn-toolbox {
 background-color: #ae2301;
@@ -73,34 +145,43 @@ document.cookie = 'kex=1';
 <button class="btn" onmouseover="todex()" onmouseout="pagetitle()" onclick=load_todex()> ToDex </button>
 <button class="btn" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> Dumper </button>
 <button class="btn" onmouseover="ftp()" onmouseout="pagetitle()" onclick=load_ftp()> FTP </button>
-<button class="btn" onmouseover="app2usb()" onmouseout="pagetitle()" onclick=load_app2usb()> App2USB </button>
+<!-- <button class="btn" onmouseover="app2usb()" onmouseout="pagetitle()" onclick=load_app2usb()> App2USB </button> -->
+
+<button class="btn" onmouseover="enableUpdates()" onmouseout="pagetitle()" onclick=load_enablebUpdates()> Enable Updates </button>
 <br>
-<button class="btn" onmouseover="enableUpdates()" onmouseout="pagetitle()" onclick=load_enablebUpdates()> Enable Updates </button>
-<button class="btn" onmouseover="enableUpdates()" onmouseout="pagetitle()" onclick=load_enablebUpdates()> Enable Updates </button>
+<!-- <button class="btn" onmouseover="enableUpdates()" onmouseout="pagetitle()" onclick=load_enablebUpdates()> Enable Updates </button> -->
 <button class="btn" onmouseover="disableUpdates()" onmouseout="pagetitle()" onclick=load_disableUpdates()> Disable Updates </button>
 <button class="btn" onmouseover="dbackup()" onmouseout="pagetitle()" onclick=load_dbackup()> DB Backup </button>
 <button class="btn" onmouseover="dbrestore()" onmouseout="pagetitle()" onclick=load_dbrestore()> DB Restore </button>
-<br>
 <button class="btn" onmouseover="historyBlocker()" onmouseout="pagetitle()" onclick=load_historyBlocker()> History Blocker </button>
 
-<button class="btn" onmouseover="ebrowser()" onmouseout="pagetitle()" onclick=load_ebrowser()> Enable Browser </button>
+<!-- <button class="btn" onmouseover="ebrowser()" onmouseout="pagetitle()" onclick=load_ebrowser()> Enable Browser </button> -->
 
-<button class="btn" onmouseover="kernelDump()" onmouseout="pagetitle()" onclick=load_kernelDump()> Kernel Dumper </button>
-<button class="btn" onmouseover="kernelClock()" onmouseout="pagetitle()" onclick=load_kernelClock()> Kernel Clock </button>
+<!-- <button class="btn" onmouseover="kernelDump()" onmouseout="pagetitle()" onclick=load_kernelDump()> Kernel Dumper </button> -->
+<!-- <button class="btn" onmouseover="kernelClock()" onmouseout="pagetitle()" onclick=load_kernelClock()> Kernel Clock </button> -->
 <button class="btn"  onmouseover="ps4debug()" onmouseout="pagetitle()" onclick=load_ps4debug()> PS4 Debug </button>
 <br>
-<button class="btn" onmouseover="disbaslr()" onmouseout="pagetitle()" onclick=load_disbAslr()> Disable ASLR </button>
-<button class="btn" onmouseover="rifrenamer()" onmouseout="pagetitle()" onclick=load_rifRen()> RIF Renamer </button>
-<button class="btn btn-main" onmouseover="fanthreshold()" onmouseout="pagetitle()"  style="margin-right:10px" onclick=load_fanthreshold()> Fan Threshold </button><select id="tempC"></select>&#176;C
+<!-- <button class="btn" onmouseover="disbaslr()" onmouseout="pagetitle()" onclick=load_disbAslr()> Disable ASLR </button> -->
+<!-- <button class="btn" onmouseover="rifrenamer()" onmouseout="pagetitle()" onclick=load_rifRen()> RIF Renamer </button> -->
+
 <button class="btn" onmouseover="webact()" onmouseout="pagetitle()" onclick=load_webact()> Web-Activator </button>
 <button class="btn" onmouseover="exitidu()" onmouseout="pagetitle()" onclick=load_exitidu()> Exit IDU </button>
-<br>
-<button class="btn" onmouseover="linux1gb()" onmouseout="pagetitle()" onclick=load_linux1gb()> Linux 1GB </button>
-<button class="btn" onmouseover="linux3gb()" onmouseout="pagetitle()" onclick=load_linux3gb()> Linux 3GB </button>
-<button class="btn btn-toolbox" onmouseover="orbistoolbox()" onmouseout="pagetitle()" onclick=load_toolbox()> Orbis-Toolbox </button>
+
+<!-- <button class="btn" onmouseover="linux1gb()" onmouseout="pagetitle()" onclick=load_linux1gb()> Linux 1GB </button>
+<button class="btn" onmouseover="linux3gb()" onmouseout="pagetitle()" onclick=load_linux3gb()> Linux 3GB </button> -->
+<!-- <button class="btn btn-toolbox" onmouseover="orbistoolbox()" onmouseout="pagetitle()" onclick=load_toolbox()> Orbis-Toolbox </button> -->
 <button class="btn" onmouseover="webrte()" onmouseout="pagetitle()" onclick=load_webrte()> PS4 Trainer </button>
-<hr style="margin-top: 24px;">
-<h1 style="font-size:25px;font-family:verdana;text-align:center;margin-top: 15px;color:yellow;">⭐ Hacked & Only By : <strong style= 'font-size:30px;text-align:center;color:#FF0000;font-family:verdana;'> ⭐ KHALED ALKHALDI ⭐  </strong><strong style= 'font-size:25px;text-align:center;color:#0058b1;font-family:verdana;'> Facebook@  </strong>⭐ Infinity Store Gaza ⭐ 0595138319 ⭐</h1>
+<button class="btn btn-main" onmouseover="fanthreshold()" onmouseout="pagetitle()"  style="margin-right:10px" onclick=load_fanthreshold()> Fan Threshold </button><select id="tempC"></select>&#176;C
+<br>
+<hr>
+<br><br><br>
+<h1 style="font-size:25px;font-family:verdana;text-align:center;margin-top: 15px;color:yellow;">⭐ Hacked & Only By :
+  <strong style='font-size:30px;text-align:center;color:#FF0000;font-family:verdana;'>
+
+    <span class="hue">⭐ KHALED ALKHALDI ⭐</span>
+  </strong><strong style='font-size:25px;text-align:center;color:#00d9ff;font-family:verdana;'>    Facebook@ </strong>⭐
+  Infinity Store Gaza ⭐ 0595138319 ⭐</h1> <br>
+
 </div>
 <script>
 function mainpayload1(){
