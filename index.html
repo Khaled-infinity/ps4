@@ -9,14 +9,19 @@
     }
 
     @font-face {
-      font-family: "DOK11";
-      src: url("dok.otf") format("otf");
+      font-family: "DOCK11";
+      src: url("dock.otf") format("otf");
       font-weight: normal;
       font-style: normal;
     }
 
+
     .dok {
-      font-family: "DOCK11", sans-serif
+      font-family: "DOCK11", sans-serif;
+    }
+
+    body {
+      font-family: sans-serif;
     }
 
 
@@ -237,12 +242,12 @@
   <br>
   <hr>
   <br><br><br>
-  <h1 class="dok" style="font-size:25px;text-align:center;margin-top: 15px;color:yellow;">⭐ Hacked & Only By :
+  <h1 style="font-size:25px;text-align:center;margin-top: 15px;color:yellow;">⭐ Hacked & Only By :
     <strong style='font-size:30px;text-align:center;color:#FF0000;'>
 
-      <span class="hue">⭐ KHALED ALKHALDI ⭐</span>
+      <span class="hue dok">⭐ KHALED ALKHALDI ⭐</span>
     </strong><strong style='font-size:25px;text-align:center;color:#00d9ff;'> Facebook@ </strong>
-    <span class="hue">⭐ INFINITY STORE GAZA ⭐</span> ⭐ 0595138319 ⭐</h1> <br>
+    <span class="hue dok">⭐ INFINITY STORE GAZA ⭐</span> ⭐ 0595138319 ⭐</h1> <br>
 
 </div>
 <script>
@@ -378,12 +383,12 @@
   }
 
   function pagetitle() {
-    document.getElementById("msgs").classList.add('hue');
+    document.getElementById("msgs").classList.add('hue', 'dok');
     document.getElementById("msgs").innerHTML = "⭐ INFINITY STORE GAZA ⭐";
   }
 
   function removeHue() {
-    document.getElementById("msgs").classList.remove('hue');
+    document.getElementById("msgs").classList.remove('hue', 'dok');
   }
 
   for (var i = 40; i <= 79; i++) {
